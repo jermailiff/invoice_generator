@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 now = datetime.now()
 print "Invoice date: " + (now.strftime("%d/%m/%Y %I:%M"))
 
-#date invoice is due, add days from today's date and provide date
+#date invoice is due, add days from today's date and provide d
 def deadline():
     date_due = raw_input ("How many days from creation is the invoice due?")
     if date_due.isdigit():
